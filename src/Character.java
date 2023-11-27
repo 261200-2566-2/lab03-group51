@@ -1,7 +1,6 @@
 
 public class Character {
     private int max_HP = 100, max_Mana = 50;
-
     private static final int base_Damage = 5;
     private static final int Run = 10;
 
@@ -71,10 +70,5 @@ public class Character {
             max_Speed = max_Speed + x.speed_SH;
         }
     }
-    public int get_HP(){
-        return max_HP;
-    }
-    public int get_Mana(){
-        return max_Mana;
-    }
+
 }
