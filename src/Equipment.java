@@ -24,4 +24,5 @@ public class Equipment {
             shield_Def = baseDefenseSh*(1+level);
         }
     }
+
 }
